@@ -8,18 +8,7 @@ import android.widget.ImageView
 import android.widget.ListAdapter
 
 // references to our images
-private val mThumbIds = arrayOf<Int>(
-        R.drawable.sample_2, R.drawable.sample_3,
-        R.drawable.sample_4, R.drawable.sample_5,
-        R.drawable.sample_6, R.drawable.sample_7,
-        R.drawable.sample_0, R.drawable.sample_1,
-        R.drawable.sample_2, R.drawable.sample_3,
-        R.drawable.sample_4, R.drawable.sample_5,
-        R.drawable.sample_6, R.drawable.sample_7,
-        R.drawable.sample_0, R.drawable.sample_1,
-        R.drawable.sample_2, R.drawable.sample_3,
-        R.drawable.sample_4, R.drawable.sample_5,
-        R.drawable.sample_6, R.drawable.sample_7)
+private val mThumbIds = arrayOf<Int>(R.drawable.argentina)
 
 class ImageAdapter(private val mContext: Context) : BaseAdapter() {
     override fun getCount(): Int = mThumbIds.size
